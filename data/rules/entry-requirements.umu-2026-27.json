@@ -1,0 +1,170 @@
+{
+  "id": "umu-general-entry-2026-27",
+  "status": "official",
+  "source": {
+    "institution": "Uganda Martyrs University",
+    "document": "Courses at UMU 2026-2027 brochure, p.12 General Entry Requirements"
+  },
+  "note": "General requirements only. The brochure gives no programme-specific subject requirements, weights or cut-offs.",
+  "levels": {
+    "bachelors": {
+      "routes": [
+        {
+          "id": "UACE_DIRECT",
+          "rules": [
+            {
+              "type": "MIN_PRINCIPAL_PASSES",
+              "count": 2
+            },
+            {
+              "type": "SAME_SITTING",
+              "applies_to": "principal passes",
+              "or_equivalent": true
+            }
+          ]
+        },
+        {
+          "id": "DIPLOMA",
+          "rules": [
+            {
+              "type": "DIPLOMA_CLASS_AT_LEAST",
+              "min": "Credit or Second Class"
+            }
+          ]
+        },
+        {
+          "id": "HIGHER_EDUCATION_ACCESS",
+          "rules": [
+            {
+              "type": "HEAC_GRADE_AT_LEAST",
+              "min": "Credit"
+            }
+          ]
+        }
+      ],
+      "documents_note": "Distance learning applicants must supply relevant certified academic documents.",
+      "gap": "Brochure does not state a UCE requirement for bachelors."
+    },
+    "diploma": {
+      "routes": [
+        {
+          "id": "UACE",
+          "rules": [
+            {
+              "type": "MIN_PRINCIPAL_PASSES",
+              "count": 1
+            },
+            {
+              "type": "MIN_SUBSIDIARY_PASSES",
+              "count": 2
+            },
+            {
+              "type": "SUBJECTS_RELEVANT_TO_PROGRAMME",
+              "applies_to": "passes"
+            },
+            {
+              "type": "MIN_UCE_PASSES",
+              "count": 5,
+              "same_sitting": true,
+              "or_equivalent": true
+            }
+          ]
+        },
+        {
+          "id": "CERTIFICATE_HOLDER",
+          "rules": [
+            {
+              "type": "CERTIFICATE_CLASS_AT_LEAST",
+              "min": "Credit or Second Class",
+              "field": "related"
+            },
+            {
+              "type": "MIN_UCE_PASSES",
+              "count": 5,
+              "same_sitting": true,
+              "or_equivalent": true
+            }
+          ]
+        }
+      ]
+    },
+    "certificate": {
+      "routes": [
+        {
+          "id": "UCE",
+          "rules": [
+            {
+              "type": "MIN_UCE_PASSES",
+              "count": 5,
+              "same_sitting": true,
+              "or_equivalent": true
+            }
+          ]
+        }
+      ]
+    },
+    "higher_education_certificate": {
+      "routes": [
+        {
+          "id": "UACE",
+          "rules": [
+            {
+              "type": "UCE_OR_EQUIVALENT"
+            },
+            {
+              "type": "MIN_PRINCIPAL_PASSES",
+              "count": 1
+            },
+            {
+              "type": "MIN_SUBSIDIARY_PASSES",
+              "count": 2,
+              "in": "principal subjects or equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    "masters": {
+      "routes": [
+        {
+          "id": "DEGREE",
+          "rules": [
+            {
+              "type": "DEGREE_CLASS_AT_LEAST",
+              "min": "Second Class Honours",
+              "field": "relevant",
+              "exceptional": "professional qualifications"
+            },
+            {
+              "type": "PASS_GAT"
+            },
+            {
+              "type": "MIN_WORK_EXPERIENCE_YEARS",
+              "years": 2,
+              "field": "relevant"
+            }
+          ]
+        }
+      ]
+    },
+    "phd": {
+      "routes": [
+        {
+          "id": "MASTERS",
+          "rules": [
+            {
+              "type": "HAS_MASTERS",
+              "field": "relevant",
+              "from": "chartered university",
+              "exceptional": "professional qualifications"
+            },
+            {
+              "type": "DOCUMENT_REQUIRED",
+              "document": "research concept note (about 8 pages)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

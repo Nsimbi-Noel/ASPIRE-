@@ -1,0 +1,61 @@
+{
+  "id": "public-universities-weighting-2026-27",
+  "status": "adopted-proxy",
+  "approval": "pending UMU admissions approval",
+  "source": {
+    "title": "Ministry of Education and Sports: Information on Public Universities Admissions for 2026/2027 Academic Year (Notes to Schools)",
+    "url": "https://news.mak.ac.ug/wp-content/uploads/2025/10/Notes-to-Schools-2026-2027-Academic-Year.pdf",
+    "retrieved": "2026-10-22"
+  },
+  "applies_to_note": "The document states this weighting system applies to all ten public universities.",
+  "general_entry": {
+    "uce_min_passes": 5,
+    "uace_min_principal_passes": 2,
+    "same_sitting": true,
+    "olevel_exclusion": "Overall O-level grade of 7, 9, Y or Z does not qualify; at least 5 O-level subjects passed without a grade 9. Makerere's 2026/27 private-sponsorship notice also lists X.",
+    "umu_difference": "UMU's brochure states the UCE requirement only for diploma and certificate levels."
+  },
+  "category_weights": {
+    "essential": 3,
+    "relevant": 2,
+    "desirable": 1
+  },
+  "alevel_points": {
+    "A": 6,
+    "B": 5,
+    "C": 4,
+    "D": 3,
+    "E": 2,
+    "O": 1,
+    "F": 0
+  },
+  "olevel_weights": {
+    "D1-D2": 0.3,
+    "C3-C6": 0.2,
+    "P7-P8": 0.1,
+    "F9": 0.0,
+    "note": "All O-level subjects done are weighed."
+  },
+  "subsidiary": "A Distinction or Credit (D1 to C6) in a subsidiary subject such as General Paper, Sub-Maths or Computer Studies carries 1 point.",
+  "selection_rules": [
+    "Essential subjects must be passed with a Principal pass. A subject passed at subsidiary level (grade O) can count as Relevant but not Essential.",
+    "At most three principal-level subjects carry a weight of 3, 2 or 1 for a given candidate.",
+    "At most two subjects are weighted Essential.",
+    "Where the essential set has three or more subjects, the best two are Essential (weight 3) and the third best is Relevant (weight 2)."
+  ],
+  "formula": {
+    "olevel_weight": "sum over O-level subjects of grade weight",
+    "alevel_weight": "sum over weighted principal subjects of (grade points x category weight)",
+    "combined": "olevel_weight + alevel_weight (desirable subsidiary points included)"
+  },
+  "not_imported": [
+    "Government sponsorship quotas (national merit, district quota, sports, disability)",
+    "1.5 points affirmative scheme for female candidates and STEM gender ratios",
+    "Year-of-A-level eligibility windows",
+    "Yearly published cut-off points (set by competition for government places)",
+    "Subject-combination allocation for BA and BSc programmes",
+    "Makerere pre-entry examinations (for example Bachelor of Laws)"
+  ],
+  "minimum_weighted_points": null,
+  "minimum_weighted_points_note": "Decided: no minimum or cut-off, because UMU is a private university and publishes none. Weighted points are used for ranking and fit only. Admissions office to confirm."
+}

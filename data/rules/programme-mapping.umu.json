@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "status": "adopted-proxy",
+    "approval": "pending UMU admissions approval",
+    "match_scale": {
+      "exact": "same or near-identical programme name and scope",
+      "close": "same discipline, different name or scope",
+      "partial": "overlapping discipline; treat as a starting guess"
+    },
+    "programme_names_from": "UMU Courses 2026-2027 brochure, p.7-11",
+    "warning": "Mapping is a judgement by the project, not a UMU decision. UMU must confirm each mapping."
+  },
+  "mapped": [
+    {
+      "id": "umu-bagric",
+      "umu_programme": "Bachelor of Agriculture",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-3",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-agric",
+      "umu_programme": "Bachelor of Science in Agriculture",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-3",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-eco-organic",
+      "umu_programme": "Bachelor of Science in Ecological Organic Agriculture",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-3",
+          "role": "primary",
+          "match": "partial"
+        }
+      ]
+    },
+    {
+      "id": "umu-agecon-agribiz",
+      "umu_programme": "Bachelor of Agricultural Economics and Agribusiness Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-4",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-agri-tech",
+      "umu_programme": "Bachelor of Science in Agricultural Technology",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-3",
+          "role": "primary",
+          "match": "partial"
+        }
+      ]
+    },
+    {
+      "id": "umu-bbam",
+      "umu_programme": "Bachelor of Business Administration and Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-51",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-procurement-scm",
+      "umu_programme": "Bachelor of Procurement and Supply Chain Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-81",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-intl-business",
+      "umu_programme": "Bachelor of International Business Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-76",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-acct-finance",
+      "umu_programme": "Bachelor of Science in Accounting and Finance",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "must-15",
+          "role": "primary",
+          "match": "exact"
+        },
+        {
+          "rule": "mak-90",
+          "role": "alternate",
+          "match": "close"
+        },
+        {
+          "rule": "mak-87",
+          "role": "alternate",
+          "match": "close"
+        }
+      ],
+      "note": "Exact name match is Mbarara's programme; Makerere splits Accounting and Finance."
+    },
+    {
+      "id": "umu-microfinance-ced",
+      "umu_programme": "Bachelor of Arts in Microfinance and Community Economic Development",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "kyu-7",
+          "role": "primary",
+          "match": "close"
+        }
+      ],
+      "note": "Kyambogo 2025/26 edition; Makerere has no match."
+    },
+    {
+      "id": "umu-econ-nrm",
+      "umu_programme": "Bachelor of Science in Economics and Natural Resources Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-49",
+          "role": "primary",
+          "match": "partial"
+        },
+        {
+          "rule": "mak-10",
+          "role": "alternate",
+          "match": "partial"
+        }
+      ]
+    },
+    {
+      "id": "umu-env-design",
+      "umu_programme": "Bachelor of Environmental Design",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-53",
+          "role": "primary",
+          "match": "close"
+        }
+      ],
+      "note": "UMU's degree is Part I of the architecture professional route."
+    },
+    {
+      "id": "umu-ba-education",
+      "umu_programme": "Bachelor of Arts with Education",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-21",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-education",
+      "umu_programme": "Bachelor of Science with Education",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-22",
+          "role": "primary",
+          "match": "exact"
+        }
+      ],
+      "note": "Makerere has biological, physical and economics variants; confirm which UMU offers."
+    },
+    {
+      "id": "umu-bsc-educ-agri",
+      "umu_programme": "Bachelor of Science with Education - Agriculture",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "gu-6iv",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-bed-ecd",
+      "umu_programme": "Bachelor of Education (Early Childhood Development)",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-23",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-cs",
+      "umu_programme": "Bachelor of Science in Computer Science",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-65",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-econ-stats",
+      "umu_programme": "Bachelor of Science in Economics and Statistics",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "kyu-69",
+          "role": "primary",
+          "match": "exact"
+        },
+        {
+          "rule": "mak-45",
+          "role": "alternate",
+          "match": "partial"
+        },
+        {
+          "rule": "mak-47",
+          "role": "alternate",
+          "match": "partial"
+        }
+      ],
+      "note": "Exact name match is Kyambogo's 2025/26 programme; Makerere offers Statistics and Quantitative Economics separately."
+    },
+    {
+      "id": "umu-bsc-it",
+      "umu_programme": "Bachelor of Science in Information Technology",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-67",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-bsc-general",
+      "umu_programme": "Bachelor of Science General",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-37",
+          "role": "primary",
+          "match": "close"
+        }
+      ],
+      "note": "Makerere's Bachelor of Science has three variants; confirm how UMU's general degree works."
+    },
+    {
+      "id": "umu-journalism",
+      "umu_programme": "Bachelor of Journalism and Mass Communication",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-17",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-social-work",
+      "umu_programme": "Bachelor of Social Work",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-16",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-fashion-textile",
+      "umu_programme": "Bachelor of Arts in Fashion and Textile Design",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-62",
+          "role": "primary",
+          "match": "partial"
+        }
+      ]
+    },
+    {
+      "id": "umu-public-admin",
+      "umu_programme": "Bachelor of Arts in Public Administration and Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "kyu-74",
+          "role": "primary",
+          "match": "close"
+        }
+      ],
+      "note": "Kyambogo 2025/26 edition; Makerere has no match."
+    },
+    {
+      "id": "umu-llb",
+      "umu_programme": "Bachelor of Laws",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-73",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-real-estate",
+      "umu_programme": "Bachelor of Real Estate Management",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-91",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-civil-eng",
+      "umu_programme": "Bachelor of Science in Civil Engineering",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-54",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-elec-eng",
+      "umu_programme": "Bachelor of Science in Electrical Engineering",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-55",
+          "role": "primary",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "id": "umu-mech-eng",
+      "umu_programme": "Bachelor of Science in Mechanical and Manufacturing Engineering",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "mak-56",
+          "role": "primary",
+          "match": "close"
+        }
+      ]
+    },
+    {
+      "id": "umu-counselling-psych",
+      "umu_programme": "Bachelor of Science in Counselling Psychology",
+      "level": "bachelors",
+      "rules": [
+        {
+          "rule": "kyu-68",
+          "role": "primary",
+          "match": "partial"
+        },
+        {
+          "rule": "mak-14",
+          "role": "alternate",
+          "match": "partial"
+        }
+      ]
+    }
+  ],
+  "no_equivalent": [
+    {
+      "umu_programme": "Bachelor of Inclusive Deaf Education (Arts and Sciences)",
+      "reason": "No equivalent in the source document"
+    },
+    {
+      "umu_programme": "Bachelor of Education (Primary)",
+      "reason": "No equivalent; Makerere's primary route is a PTC background scheme"
+    },
+    {
+      "umu_programme": "Bachelor of Social Development and Counselling",
+      "reason": "No clear equivalent"
+    },
+    {
+      "umu_programme": "Bachelor of Science in Public Health",
+      "reason": "No equivalent in the source document"
+    },
+    {
+      "umu_programme": "Bachelor of Science in Health Promotion and Education",
+      "reason": "No equivalent in the source document"
+    },
+    {
+      "umu_programme": "Bachelor of Science in Accounting and Finance (CPA Holders)",
+      "reason": "Special 1-year route for CPA holders"
+    },
+    {
+      "umu_programme": "Higher Education Access Certificate",
+      "reason": "Not a degree; use UMU general entry"
+    },
+    {
+      "umu_programme": "All diploma and certificate programmes",
+      "reason": "Source covers degrees only; use UMU general entry"
+    },
+    {
+      "umu_programme": "All Masters, postgraduate diploma and PhD programmes",
+      "reason": "Source covers undergraduate admission only; use UMU general entry"
+    }
+  ]
+}

@@ -1,0 +1,1415 @@
+{
+  "meta": {
+    "status": "adopted-proxy",
+    "approval": "pending UMU admissions approval",
+    "source_document": {
+      "title": "Ministry of Education and Sports: Information on Public Universities Admissions for 2026/2027 Academic Year (Notes to Schools)",
+      "url": "https://news.mak.ac.ug/wp-content/uploads/2025/10/Notes-to-Schools-2026-2027-Academic-Year.pdf",
+      "retrieved": "2026-10-22"
+    },
+    "encoding": {
+      "REQUIRED": "all listed subjects, each a principal pass",
+      "BEST_OF": "the n best-performed subjects from the list; 'ALL' means all A-level subjects; 'REMAINING' means subjects not already used",
+      "ANY_OR_BOTH": "source says 'X and/or Y'",
+      "subject_names": "readable names as printed; normalise to UNEB subject codes in code"
+    },
+    "verify": "Transcribed from the PDF text extraction. Confirm each entry against the PDF before relying on it; entries marked medium are known to be ambiguous."
+  },
+  "rules": [
+    {
+      "id": "mak-3",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CAES no. 3"
+      },
+      "programme": "BSc Agriculture",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "Biology",
+            "Chemistry",
+            "Agriculture"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Biology",
+            "Agriculture",
+            "Chemistry",
+            "Physics",
+            "Geography",
+            "Mathematics"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-4",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CAES no. 4"
+      },
+      "programme": "Bachelor of Agribusiness Management",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "Biology",
+            "Chemistry",
+            "Physics",
+            "Agriculture",
+            "Mathematics",
+            "Economics",
+            "Geography"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Biology",
+            "Chemistry",
+            "Agriculture",
+            "Physics",
+            "Geography",
+            "Mathematics",
+            "Economics"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-10",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CAES no. 10"
+      },
+      "programme": "Bachelor of Environmental Science",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "Biology",
+            "Chemistry",
+            "Agriculture",
+            "Mathematics",
+            "Economics",
+            "Geography"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Biology",
+            "Agriculture",
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Economics",
+            "Geography"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "note": "Source says 'Third better done'; encoded as the next best subject after the two essentials."
+    },
+    {
+      "id": "mak-14",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CHUSS no. 14"
+      },
+      "programme": "Bachelor of Applied Psychology",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-16",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CHUSS no. 16"
+      },
+      "programme": "Bachelor of Social Work",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-17",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CHUSS no. 17"
+      },
+      "programme": "Bachelor of Journalism and Communication",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "History",
+            "Literature in English",
+            "Economics",
+            "Geography"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "History",
+            "Literature in English",
+            "Economics",
+            "Language subjects",
+            "Geography",
+            "CRE",
+            "IRE",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "makerere_scheme": "District quota and privately sponsored only"
+    },
+    {
+      "id": "mak-21",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEES no. 21"
+      },
+      "programme": "Bachelor of Arts (Education)",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "History",
+            "CRE",
+            "IRE",
+            "Economics",
+            "Geography",
+            "Literature in English",
+            "Kiswahili",
+            "French",
+            "German",
+            "Arabic",
+            "Luganda",
+            "Entrepreneurship",
+            "Art and Design",
+            "Music",
+            "Chinese",
+            "Runyakitara"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "History",
+            "CRE",
+            "IRE",
+            "Economics",
+            "Geography",
+            "Literature in English",
+            "Kiswahili",
+            "French",
+            "German",
+            "Arabic",
+            "Luganda",
+            "Entrepreneurship",
+            "Art and Design",
+            "Music",
+            "Chinese",
+            "Runyakitara"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "note": "Source restricts national-merit applicants without Literature in English, French, German or Kiswahili; that is a government-sponsorship rule and is not imported."
+    },
+    {
+      "id": "mak-22",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEES no. 22"
+      },
+      "programme": "BSc with Education",
+      "variants": [
+        {
+          "id": "biological",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Biology",
+                "Chemistry"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Physics",
+                "Mathematics"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Sub-Maths",
+            "Computer Studies"
+          ]
+        },
+        {
+          "id": "physical",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Mathematics"
+              ]
+            },
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Physics",
+                "Chemistry"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Biology",
+                "Chemistry",
+                "Physics",
+                "Economics",
+                "Geography"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Computer Studies"
+          ]
+        },
+        {
+          "id": "economics",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Mathematics",
+                "Economics"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Chemistry",
+                "Biology",
+                "Physics",
+                "Geography"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Computer Studies"
+          ]
+        }
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-23",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEES no. 23"
+      },
+      "programme": "Bachelor of Early Childhood Care and Education",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "makerere_scheme": "District quota and privately sponsored only"
+    },
+    {
+      "id": "mak-37",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoNAS no. 37"
+      },
+      "programme": "Bachelor of Science",
+      "variants": [
+        {
+          "id": "biological",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Biology",
+                "Chemistry"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Mathematics",
+                "Physics"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Sub-Maths",
+            "Computer Studies"
+          ]
+        },
+        {
+          "id": "physical",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Mathematics"
+              ]
+            },
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Physics",
+                "Chemistry"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Chemistry",
+                "Physics",
+                "Economics",
+                "Biology"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Computer Studies"
+          ]
+        },
+        {
+          "id": "economics",
+          "essential": [
+            {
+              "type": "REQUIRED",
+              "subjects": [
+                "Mathematics",
+                "Economics"
+              ]
+            }
+          ],
+          "relevant": [
+            {
+              "type": "BEST_OF",
+              "n": 1,
+              "from": [
+                "Physics",
+                "Chemistry",
+                "Biology"
+              ]
+            }
+          ],
+          "desirable": [
+            "General Paper",
+            "Computer Studies"
+          ]
+        }
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-45",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoBAMS no. 45"
+      },
+      "programme": "Bachelor of Statistics",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Economics",
+            "Physics"
+          ]
+        },
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Chemistry",
+            "Physics",
+            "Economics",
+            "Entrepreneurship",
+            "Geography",
+            "Biology"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "medium",
+      "note": "Table layout is ambiguous in the extracted text; verify against the PDF."
+    },
+    {
+      "id": "mak-47",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoBAMS no. 47"
+      },
+      "programme": "BSc Quantitative Economics",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics",
+            "Economics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Physics",
+            "Geography",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-49",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoBAMS no. 49"
+      },
+      "programme": "Bachelor of Arts (Economics)",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Economics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "Mathematics",
+            "Physics",
+            "Entrepreneurship",
+            "History",
+            "Geography",
+            "Agriculture"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-51",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoBAMS no. 51"
+      },
+      "programme": "Bachelor of Business Administration",
+      "essential": [
+        {
+          "type": "ANY_OR_BOTH",
+          "subjects": [
+            "Economics",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n_min": 1,
+          "n_max": 2,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "note": "Source says 'One or Two better done'; how the weights apply to one versus two subjects needs clarifying."
+    },
+    {
+      "id": "mak-53",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEDAT no. 53"
+      },
+      "programme": "Bachelor of Architecture",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics"
+          ]
+        },
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Fine Art",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Physics",
+            "Economics",
+            "Geography",
+            "Fine Art",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-54",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEDAT no. 54"
+      },
+      "programme": "BSc Civil Engineering",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics",
+            "Physics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Chemistry",
+            "Economics",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing",
+            "Entrepreneurship",
+            "Geography"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-55",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEDAT no. 55"
+      },
+      "programme": "BSc Electrical Engineering",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics",
+            "Physics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Chemistry",
+            "Economics",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing",
+            "Entrepreneurship",
+            "Geography"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-56",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEDAT no. 56"
+      },
+      "programme": "BSc Mechanical Engineering",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics",
+            "Physics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Chemistry",
+            "Economics",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing",
+            "Entrepreneurship",
+            "Geography"
+          ]
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-62",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CEDAT no. 62"
+      },
+      "programme": "Bachelor of Industrial Art and Applied Design",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Fine Art",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-65",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoCIS no. 65"
+      },
+      "programme": "BSc Computer Science",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics"
+          ]
+        },
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Physics",
+            "Chemistry",
+            "Economics",
+            "Geom. & Mech. Drawing",
+            "Geom. & Building Drawing",
+            "Biology"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high",
+      "note": "Differs from the 2019/20 edition (Mathematics and Physics essential), which shows rules change between editions."
+    },
+    {
+      "id": "mak-67",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "CoCIS no. 67"
+      },
+      "programme": "Bachelor of Information Systems and Technology",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "Chemistry",
+            "Physics",
+            "Mathematics",
+            "Economics",
+            "Geography",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-73",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "SoL no. 73"
+      },
+      "programme": "Bachelor of Laws",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [
+        {
+          "type": "PRE_ENTRY_EXAM",
+          "text": "Makerere sets a pre-entry examination; UMU's process is unknown"
+        }
+      ],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-76",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "MUBS no. 76"
+      },
+      "programme": "Bachelor of International Business",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-81",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "MUBS no. 81"
+      },
+      "programme": "Bachelor of Procurement and Supply Chain Management",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "mak-87",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "MUBS no. 87"
+      },
+      "programme": "BSc Finance",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [
+        {
+          "type": "MATHS_CREDIT_REQUIREMENT",
+          "text": "At least a Credit in Sub-Maths at A-level, or a Credit in Mathematics at O-level"
+        }
+      ],
+      "parse_confidence": "high",
+      "makerere_scheme": "Privately sponsored only"
+    },
+    {
+      "id": "mak-90",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "MUBS no. 90"
+      },
+      "programme": "BSc Accounting",
+      "essential": [
+        {
+          "type": "ANY_OR_BOTH",
+          "subjects": [
+            "Economics",
+            "Mathematics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n_min": 1,
+          "n_max": 2,
+          "from": "ALL"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [
+        {
+          "type": "MATHS_CREDIT_REQUIREMENT",
+          "text": "At least a Credit in Sub-Maths at A-level, or a Credit in Mathematics at O-level"
+        }
+      ],
+      "parse_confidence": "high",
+      "note": "Source says 'One or Two better done'; clarify how weights apply.",
+      "makerere_scheme": "Privately sponsored only"
+    },
+    {
+      "id": "mak-91",
+      "source": {
+        "institution": "Makerere University",
+        "edition": "2026/2027",
+        "section": "MUBS no. 91"
+      },
+      "programme": "Bachelor of Real Estate Business Management",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [
+        {
+          "type": "MATHS_CREDIT_REQUIREMENT",
+          "text": "At least a Credit in Sub-Maths at A-level, or a Credit in Mathematics at O-level"
+        }
+      ],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "must-15",
+      "source": {
+        "institution": "Mbarara University of Science and Technology",
+        "edition": "2026/2027",
+        "section": "Faculty of Business and Management Sciences no. 15"
+      },
+      "programme": "BSc Accounting and Finance",
+      "essential": [
+        {
+          "type": "ANY_OR_BOTH",
+          "subjects": [
+            "Economics",
+            "Mathematics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n_min": 1,
+          "n_max": 2,
+          "from": "ALL"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [
+        {
+          "type": "MATHS_CREDIT_REQUIREMENT",
+          "text": "Subsidiary pass in Sub-Maths at A-level, or at least a Credit in Mathematics at O-level"
+        }
+      ],
+      "parse_confidence": "high",
+      "note": "Exact name match for UMU's programme.",
+      "makerere_scheme": "District quota and privately sponsored"
+    },
+    {
+      "id": "kyu-7",
+      "source": {
+        "institution": "Kyambogo University",
+        "edition": "2025/2026",
+        "section": "School of Management and Entrepreneurship no. 7",
+        "warning": "Older edition than the 2026/27 Ministry document"
+      },
+      "programme": "Bachelor of Microfinance",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Economics",
+            "Mathematics",
+            "Entrepreneurship"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "kyu-68",
+      "source": {
+        "institution": "Kyambogo University",
+        "edition": "2025/2026",
+        "section": "Faculty of Social Sciences no. 68",
+        "warning": "Older edition than the 2026/27 Ministry document"
+      },
+      "programme": "Bachelor of Guidance and Counselling",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": "ALL"
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "kyu-69",
+      "source": {
+        "institution": "Kyambogo University",
+        "edition": "2025/2026",
+        "section": "Faculty of Social Sciences no. 69",
+        "warning": "Older edition than the 2026/27 Ministry document"
+      },
+      "programme": "Bachelor of Economics and Statistics",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Mathematics",
+            "Economics"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING_EXCLUDING_FINE_ART"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "kyu-74",
+      "source": {
+        "institution": "Kyambogo University",
+        "edition": "2025/2026",
+        "section": "Faculty of Social Sciences no. 74",
+        "warning": "Older edition than the 2026/27 Ministry document"
+      },
+      "programme": "Bachelor of Public Administration and Resource Governance",
+      "essential": [
+        {
+          "type": "BEST_OF",
+          "n": 2,
+          "from": [
+            "History",
+            "Geography",
+            "Economics",
+            "Luganda",
+            "Entrepreneurship",
+            "Accounts",
+            "Literature in English",
+            "Fine Art",
+            "Kiswahili",
+            "CRE",
+            "IRE"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "ALL_ARTS_SUBJECTS"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    },
+    {
+      "id": "gu-6iv",
+      "source": {
+        "institution": "Gulu University",
+        "edition": "2026/2027",
+        "section": "BSc Education, Agriculture variant"
+      },
+      "programme": "BSc Education (Agriculture)",
+      "essential": [
+        {
+          "type": "REQUIRED",
+          "subjects": [
+            "Biology"
+          ]
+        },
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": [
+            "Chemistry",
+            "Agriculture",
+            "Geography"
+          ]
+        }
+      ],
+      "relevant": [
+        {
+          "type": "BEST_OF",
+          "n": 1,
+          "from": "REMAINING"
+        }
+      ],
+      "desirable": [
+        "General Paper",
+        "Sub-Maths",
+        "Computer Studies"
+      ],
+      "special_requirements": [],
+      "parse_confidence": "high"
+    }
+  ]
+}
